@@ -5,11 +5,14 @@ JDK 13.0.2
 
 Netbeans 11.3
 
-This Project is for educational purposes only (no commercial use)!
+In this game the player can only play against the computer.
 
-You can modify the source code and resource files with one restriction:
+Just click on Start Game, enter your Name and enjoy.
+If a round is finished, click on Next Round, be aware if you 
+click on Start Game, all Settings and Statistics will be reset.
 
-You are not allowed to change/delete any comment in the source files, 
-but you can add your own comments.
 
+Have fun with playing, modifying or learning. 
 
+Greetz, 
+Thanius
