@@ -1106,14 +1106,14 @@ public class GUI extends javax.swing.JFrame
             btn3O = 2;
             Btn3.setIcon(new ImageIcon(imgO));
         }
-        else if (btn1O == 2 && btn6O == 2 && !btn5 && !btn7 && !! !btn4)
+        else if (btn1O == 2 && btn6O == 2 && !btn5 && !btn7 && !btn4)
         {
             check = true;
             btn4 = true;
             btn4O = 2;
             Btn4.setIcon(new ImageIcon(imgO));
         }
-        else if (btn1O == 2 && btn6O == 2 && !btn4 && !btn9 && !! !btn5)
+        else if (btn1O == 2 && btn6O == 2 && !btn4 && !btn9 && !btn5)
         {
             check = true;
             btn5 = true;
@@ -1432,14 +1432,14 @@ public class GUI extends javax.swing.JFrame
             btn3O = 2;
             Btn3.setIcon(new ImageIcon(imgO));
         }
-        else if (btn1O == 1 && btn6O == 1 && !btn5 && !btn7 && !! !btn4)
+        else if (btn1O == 1 && btn6O == 1 && !btn5 && !btn7 && !btn4)
         {
             check = true;
             btn4 = true;
             btn4O = 2;
             Btn4.setIcon(new ImageIcon(imgO));
         }
-        else if (btn1O == 1 && btn6O == 1 && !btn4 && !btn9 && !! !btn5)
+        else if (btn1O == 1 && btn6O == 1 && !btn4 && !btn9 && !btn5)
         {
             check = true;
             btn5 = true;
