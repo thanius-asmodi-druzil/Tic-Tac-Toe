@@ -1,0 +1,11 @@
+The resource files have to be in "res" directory of your project.
+
+Looks like:
+
+TicTacToe (Project Directory)
+  build
+  dist
+  res (<- create this directory and put in there the image files)
+  src
+  
+Or modify the LoadImages() Method in the source code
