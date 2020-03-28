@@ -66,7 +66,6 @@ public class GUI extends javax.swing.JFrame
         AverageComputer = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Tic Tac Toe v.2.0.0.0");
         setBackground(new java.awt.Color(0, 102, 255));
         setForeground(new java.awt.Color(0, 153, 255));
         setLocationByPlatform(true);
@@ -332,11 +331,11 @@ public class GUI extends javax.swing.JFrame
     {
         try 
         {
-            imgX = ImageIO.read(new File("res/x.png"));
-            imgO = ImageIO.read(new File("res/o.png"));
-            imgQ = ImageIO.read(new File("res/q.png"));
-            imgXW = ImageIO.read(new File("res/xw.png"));
-            imgOW = ImageIO.read(new File("res/ow.png"));
+            imgX = ImageIO.read(getClass().getResource("res/x.png"));
+            imgO = ImageIO.read(getClass().getResource("res/o.png"));
+            imgQ = ImageIO.read(getClass().getResource("res/q.png"));
+            imgXW = ImageIO.read(getClass().getResource("res/xw.png"));
+            imgOW = ImageIO.read(getClass().getResource("res/ow.png"));
         } 
         catch (IOException ex) {}
     }
@@ -1890,7 +1889,7 @@ public class GUI extends javax.swing.JFrame
             player = true;
         else
             player = false;
-
+        
         name = javax.swing.JOptionPane.showInputDialog(null, "Enter your name:",
             "Your Name", javax.swing.JOptionPane.PLAIN_MESSAGE);
         
