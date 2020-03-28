@@ -20,7 +20,7 @@ Thanius
 Updates:
 
 v.2.0.0.2
-Initial Release
+- Initial Release
 
 v.2.0.0.4
 - fixed Computer turn
