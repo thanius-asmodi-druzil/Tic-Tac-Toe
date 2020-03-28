@@ -1,5 +1,4 @@
 # Tic-Tac-Toe
-Game complete!
 
 JDK 13.0.2
 
@@ -16,3 +15,17 @@ Have fun with playing, modifying or learning.
 
 Greetz, 
 Thanius
+
+
+Updates:
+
+v.2.0.0.2
+Initial Release
+
+v.2.0.0.4
+- fixed Computer turn
+- fixed some issues
+
+v.2.0.0.5
+- corrected average wins
+- fixed the "Reset Game" Button (the button only works if round has finished)
