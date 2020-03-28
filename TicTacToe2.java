@@ -40,7 +40,7 @@ public class TicTacToe2
             gui.setVisible(true);
             gui.setResizable(false);
             gui.setLocationRelativeTo(null);
-            gui.setTitle("Tic Tac Toe v.2.0.0.4 @Thanius");
+            gui.setTitle("Tic Tac Toe v.2.0.0.5 @Thanius");
         });
     }
 }
