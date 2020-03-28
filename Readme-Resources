@@ -5,7 +5,7 @@ Looks like:
 TicTacToe (Project Directory)
   build
   dist
-  res (<- create this directory and put in there the image files)
   src
+    res (<- create this directory in src and put in there the image files)
   
 Or modify the LoadImages() Method in the source code
