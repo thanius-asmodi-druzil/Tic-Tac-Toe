@@ -10,7 +10,6 @@
 package tictactoe2;
 
 import java.awt.Image;
-import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -699,7 +698,7 @@ public class GUI extends javax.swing.JFrame
     {
         if (btn1 && btn2 && btn3 && btn4 && btn5 && btn6 && btn7 && btn8 && btn9)
         {
-            win = false;
+            win = true;
             winner = 0;
             WinnerDialog(3);
         }
